@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
 ARG JAR_FILE=target/*.jar
 WORKDIR /usr/app
-COPY ${JAR_FILE} app.jar
+COPY ${JAR_FILE} ./
 ENTRYPOINT ["java","-jar","app.jar"]
