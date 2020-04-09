@@ -6,15 +6,8 @@
 	<groupId>com.project.systems</groupId>
 	<artifactId>cabmanagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cab management</name>
-
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.4.Release</version>
-	</parent>
-	<version>0.0.1-SNAPSHOT</version>
-
+	<name>cabmanagement</name>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
